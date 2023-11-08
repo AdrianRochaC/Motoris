@@ -1,0 +1,41 @@
+*{
+    text-align: center;
+    color: white;
+}
+html{
+    height: 100%;
+}
+h1{
+    font-size: 50px;
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#370617, #9d0208);
+}
+a{
+    text-decoration: none;
+    background-color: #252627;
+    padding: 25px 100px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.into{
+    color: crimson;
+}
+.grua{
+    text-decoration: none;
+    background:linear-gradient(#00ff00, #228b22);
+    padding: 5px 25px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    cursor: grab;
+    color: black;
+    float: left;
+    margin: 15px;
+    border-radius: 10px;
+}

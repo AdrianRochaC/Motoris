@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emprendimiento</title>
+    <link href="/css/estilos.css" rel="stylesheet"/>
+</head>
+<body>
+    <form id="serviceRequestForm" class="contenedor elemento">
+        <div class="elemento">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="user_nombre" required><br>
+        </div>
+        <div class="elemento">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="user_telefono" required><br>
+        </div>
+        <div class="elemento">
+            <label for="placa">Placa de la Moto</label><br/>
+            <input type="text" id="placa" name="placa_usuario" required/><br/>
+        </div>
+        <div class="elemento">
+            <label for="marca">Marca de la Moto</label><br/>
+            <input type="text" id="marca" name="marca_usuario" required/><br/>
+        </div>
+        <div class="elemento">
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="user_direccion" required><br>
+        </div>
+        <div class="elemento">
+            <label for="problemas">Descripción del problema:</label><br/><br/>
+            <select id="problemas" name="problemas" class="sel">
+                <option value="seleccionar" selected="true">Seleccionar</option>
+                <option value="llanta pinchada">Llanta Pinchada</option>
+                <option value="daño de cadena">Daño de Cadena</option>
+                <option value="daño de rin">Daño de Rin</option>
+                <option value="daño de bombilos">Daño de Bombillos</option>
+                <option value="bateria">Batería</option>
+                <option value="guayas">Reventada de Guayas</option>
+                <option value="aceite">Aceite</option>
+                <option value="filtro">Cambio de Filtro</option>
+                <option value="bujias">Bujias</option>
+                <option value="bomba">Bomba de Gasolina</option>
+            </select>
+            <br/><br/>
+        </div>
+        <div class="elemento">
+            <input type="submit" value="Enviar"/>
+        </div>
+    </form>
+    <div id="resultado"></div>
+    <a href="/html/principal.html">Inicio</a>
+    <a href="/html/contacto.html">Contacto</a>
+    <br/><br/><br/><br/><br/>
+
+
+</body>
+</html>
